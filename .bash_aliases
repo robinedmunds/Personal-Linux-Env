@@ -18,8 +18,10 @@ alias mkdir="mkdir -pv"
 alias fhere="find . -name "
 
 # system
+alias ctl="systemctl"
+alias ctlie="systemctl is-enabled"
 alias df="df -Tha --total"
-alias du="du -ach | sort -h"
+alias du="du -ach"
 alias free="free -mt"
 alias ps="ps auxf"
 alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e "
