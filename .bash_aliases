@@ -26,6 +26,10 @@ alias free="free -mt"
 alias ps="ps auxf"
 alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e "
 
+# python
+alias py="python3"
+alias python="python3"
+
 # docker
 alias dps="docker ps"
 alias dpsa="docker ps -a"
