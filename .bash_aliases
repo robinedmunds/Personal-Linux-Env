@@ -23,14 +23,15 @@ alias ctlie="systemctl is-enabled"
 alias df="df -Tha --total"
 alias du="du -ach"
 alias free="free -mt"
-alias ps="ps auxf"
-alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e "
+#alias ps="ps auxf"
+#alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e "
 
 # python
 alias py="python3"
 alias python="python3"
 
 # docker
+alias d="docker"
 alias dps="docker ps"
 alias dpsa="docker ps -a"
 alias dv="docker volume"
