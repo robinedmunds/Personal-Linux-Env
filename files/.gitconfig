@@ -1,7 +1,6 @@
 [user]
 	name = Robin Edmunds
-	email = robin@edmunds.me
-#	username = username
+    email= 8656189+robinedmunds@users.noreply.github.com
 [core]
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.gitignore
@@ -9,7 +8,6 @@
 	ui = auto
 [github]
 	user = robinedmunds
-#	token = token
 [alias]
   aslog = log --oneline --graph --all -n20
   asloga = log --oneline --graph --all
