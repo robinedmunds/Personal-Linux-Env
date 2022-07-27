@@ -1,4 +1,19 @@
-:syntax on
-:set shiftwidth=4
-:set tabstop=4
-:set expandtab
+filetype on
+filetype plugin on
+syntax on
+set nocompatible
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set number
+set nowrap
+set nobackup
+set incsearch
+set showcmd
+set showmode
+set showmatch
+set hlsearch
+set history=1000
+set wildmenu
+set wildmode=list:longest
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
