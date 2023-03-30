@@ -8,6 +8,9 @@
     ui = auto
 [github]
     user = robinedmunds
+[safe]
+    directory = /home/robin/.ansible-robin/Personal-Linux-Env
+    directory = /srv/getlegit-docker-compose
 [alias]
     aslog = log --oneline --graph --all -n20
     asloga = log --oneline --graph --all
